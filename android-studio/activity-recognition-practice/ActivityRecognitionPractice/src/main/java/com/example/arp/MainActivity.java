@@ -113,7 +113,10 @@ public class MainActivity extends ListActivity{
         }
 	}
     
-	
+	/**
+	 * Adds a detected activity update to the activity's list view
+	 * @param result
+	 */
     private void addUpdate(ActivityRecognitionResult result){
     	DetectedActivity activity = result.getMostProbableActivity();
     	
@@ -122,6 +125,8 @@ public class MainActivity extends ListActivity{
     	
     	list.add(msg);
 		adapter.notifyDataSetChanged();
+		
+		Utils.logActivities(result);
     }
     
 }

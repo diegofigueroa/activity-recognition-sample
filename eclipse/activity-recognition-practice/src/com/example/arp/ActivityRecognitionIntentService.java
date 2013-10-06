@@ -16,7 +16,9 @@ public class ActivityRecognitionIntentService extends IntentService{
 		super("ActivityRecognitionService");
 	}
 	
-    // Called when a new activity detection update is available.
+    /** Called when a new activity detection update is available.
+     * 
+     */
     @Override
     protected void onHandleIntent(Intent intent){
     	if(ActivityRecognitionResult.hasResult(intent)){
