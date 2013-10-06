@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values-sw600dp/styles.xml -->
+    <style name="Widget.SampleOutput">
+        <item name="android:paddingTop">@dimen/margin_medium</item>
+        <item name="android:paddingBottom">@dimen/margin_medium</item>
+        <item name="android:paddingLeft">@dimen/margin_huge</item>
+        <item name="android:paddingRight">@dimen/margin_huge</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+</resources>

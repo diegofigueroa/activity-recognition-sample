@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/colors.xml -->
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/maps_attrs.xml -->
+    <declare-styleable name="MapAttrs">
+        <attr name="mapType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="satellite" value="2" />
+            <enum name="terrain" value="3" />
+            <enum name="hybrid" value="4" />
+        </attr>
+        <attr name="cameraBearing" format="float" />
+        <attr name="cameraTargetLat" format="float" />
+        <attr name="cameraTargetLng" format="float" />
+        <attr name="cameraTilt" format="float" />
+        <attr name="cameraZoom" format="float" />
+        <attr name="uiCompass" format="boolean" />
+        <attr name="uiRotateGestures" format="boolean" />
+        <attr name="uiScrollGestures" format="boolean" />
+        <attr name="uiTiltGestures" format="boolean" />
+        <attr name="uiZoomControls" format="boolean" />
+        <attr name="uiZoomGestures" format="boolean" />
+        <attr name="useViewLifecycle" format="boolean" />
+        <attr name="zOrderOnTop" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/dimens.xml -->
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/strings.xml -->
+    <string name="activity_recognition_error_detail">        Activity recognition error, code %1$d message %2$s.</string>
+    <string name="activity_title">Manage Activity Updates</string>
+    <string name="activity_updates_requested">Activity updates requested</string>
+    <string name="activity_updates_stop">Stopping activity update requests</string>
+    <string name="app_description">Demonstrates activity recognition</string>
+    <string name="app_name">Activity Recognition</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml -->
+    <string name="auth_client_availability_notification_title">Install/Update/Enable Google Play services</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
+    <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string name="common_google_play_services_install_title" msgid="7215213145546190223">Get Google Play services</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button" msgid="6556509956452265614">Update</string>
+    <string name="common_google_play_services_update_text" msgid="9053896323427875356">This app won\'t run unless you update Google Play services.</string>
+    <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/strings.xml -->
+    <string name="connected">Connected to Location Services</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/lib_strings.xml -->
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">        The version of Google Play services on this device is not authentic</string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">        The app is not licensed to the user</string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/strings.xml -->
+    <string name="connection_failed">Connection to service failed: error code %1$d</string>
+    <string name="date_format_error">Internal error: date formatting exception.</string>
+    <string name="disconnected">Disconnected from Location Services</string>
+    <string name="invalid_action">Invalid action received. See error log for details.</string>
+    <string name="invalid_action_detail">Invalid action %1$s received.</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml -->
+    <string name="location_client_ulr_inactive_age_under_13" translatable="false">        AgeUnder13</string>
+    <string name="location_client_ulr_inactive_age_unknown" translatable="false">AgeUnknown</string>
+    <string name="location_client_ulr_inactive_unknown_restriction" translatable="false">        UnknownRestriction</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/strings.xml -->
+    <string name="log_file_deletion_error">Log file deletion error.</string>
+    <string name="log_filename">%1$s%2$s%3$d%4$s</string>
+    <string name="log_message">Log: timestamp: %1$s type %2$s confidence %3$d</string>
+    <string name="logs_deleted">Log file(s) deleted</string>
+    <string name="menu_item_clearlog">Clear Log</string>
+    <string name="menu_item_showlog">Show Log</string>
+    <string name="no_log_data">No log data is available</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="notification_title">You are moving</string>
+    <string name="play_services_available">Location Services is available</string>
+    <string name="service_not_connected">Not connected to Location Services</string>
+    <string name="start_button">Start</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_button">Stop</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="turn_on_GPS">Click to turn on GPS, or swipe to ignore</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">        Received an unknown activity request code %1$d in onActivityResult.</string>
+    <!-- From: file:/home/diego/projects/android/samples/ActivityRecognitionProject/ActivityRecognition/src/main/res/values/styles.xml -->
+    <style name="Theme.Base" parent="android:Theme.Light" />
+
+    <style name="Theme.Sample" parent="Theme.Base" />
+
+    <style name="Widget" />
+
+    <style name="Widget.SampleOutput">
+        <item name="android:padding">@dimen/margin_medium</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+</resources>
