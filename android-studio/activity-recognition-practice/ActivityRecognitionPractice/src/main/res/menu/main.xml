@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"
+        android:title="@string/action_start"/>
+    
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"
+        android:title="@string/action_stop"/>
+	<item
+        android:id="@+id/action_clear"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"
+        android:title="@string/action_clear"/>
+</menu>

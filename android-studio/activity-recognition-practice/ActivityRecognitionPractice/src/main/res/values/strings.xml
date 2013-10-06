@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Activity Recognition Practice</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_clear">Clear</string>
+    
+    <string name="action_settings">Settings</string>
+    
+
+</resources>
