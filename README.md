@@ -8,9 +8,9 @@ Setup
 
 1. Clone the repo:
 
-```shell
-git clone https://github.com/diegofigueroa/activity-recognition-sample.git
-```
+    ```shell
+    git clone https://github.com/diegofigueroa/activity-recognition-sample.git
+    ```
 
 2. Make sure you have Google Play Services SDK [correctly installed](http://developer.android.com/google/play-services/setup.html).
 
