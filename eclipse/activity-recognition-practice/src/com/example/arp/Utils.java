@@ -55,32 +55,7 @@ public class Utils{
 	 * @param activity
 	 */
     public static void showActivityNotification(Context context, DetectedActivity activity){
-    	String msg;
-    	
-    	switch(activity.getType()){
-    	case DetectedActivity.IN_VEHICLE:
-    		msg = "Hey you are traveling in a car!";
-    		break;
-    	case DetectedActivity.ON_BICYCLE:
-    		msg = "Hey you are biking, good for you!";
-    		break;
-    	case DetectedActivity.ON_FOOT:
-    		msg = "Hey you are moving on foot, how is the weather?";
-    		break;
-    	case DetectedActivity.STILL:
-    		msg = "Hey you are standing still, go out there!";
-    		break;
-    	case DetectedActivity.TILTING:
-    		msg = "Hey stop tilting me, i'm getting dizzy!";
-    		break;
-		default:
-			msg = "Sorry, didn't get that, what are you doing?";
-    	}
-    	
-    	if(previousActivity != activity.getType() && activity.getConfidence() > 50){
-    		previousActivity = activity.getType();
-    		showNotification(context, "New activity detected", msg);
-    	}
+    	// Implement me!
     }
     
     /**

@@ -119,8 +119,6 @@ public class MainActivity extends ListActivity{
 	 */
     private void addUpdate(ActivityRecognitionResult result){
     	DetectedActivity activity = result.getMostProbableActivity();
-    	
-    	Utils.showActivityNotification(this, activity);
     	String msg = Utils.parseActivity(activity);
     	
     	list.add(msg);
